@@ -1,0 +1,191 @@
+body {
+  background-color: white;
+}
+p {
+  font-family: Arial;
+  font-size: 30px;
+  color: #2f2f2f;
+  font-weight: bold;
+}
+p2 {
+  font-family: Arial;
+  font-size: 18px;
+  color: #686868;
+}
+p3 {
+  font-family: Arial;
+  font-size: 18px;
+  color: #2f2f2f;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+p4 {
+  font-family: Arial;
+  font: size 12px;
+  color: #8d8d8d;
+}
+p5 {
+  font-family: Arial;
+  font: size 14px;
+  color: #686868;
+}
+p6 {
+  font-family: Arial;
+  font: size 12px;
+  color: #000000;
+}
+.header {
+  background-color: black;
+  font-family: Arial;
+  color: white;
+  width: 1200px;
+  padding: 0;
+  margin: 0;
+  border-bottom: white;
+  text-transform: uppercase;
+  display: inline-flex;
+  height: 60px;  
+  position:fixed;
+  z-index: 1;
+}
+.fleche {
+  float:right;
+}
+.ligne {
+  display: inline-flex;
+  margin-left: 80px;
+}
+.headline {
+  width: 333px;
+  margin: 6px;
+  display: inline-block;
+  text-align: left;
+  margin-top: 70px;
+}
+.miniheadline {
+  width: 333px;
+  margin: 6px;
+  display: inline-block;
+}
+.menuitems li {
+  display: inline-flex;
+  list-style: none;
+  padding: 10px;
+  font-size: 10px;
+  text-align: center;
+}
+.soushead {
+  display: inline-block;
+}
+.article:hover{
+  opacity: 0.6;
+}
+.miniheadline:hover{
+  opacity: 0.6;
+}
+.headerarticle {
+  color: #5a79a0;
+  font-style: Arial;
+  font-size: 20px;
+  text-transform: uppercase;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.headerarticle2 {
+  color: #207fb7;
+  font-style: Arial;
+  font-size: 20px;
+  text-transform: uppercase;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.bouton {
+  padding: 6px;
+  color: #fff;
+  text-transform: uppercase;
+  border-radius: 5px;
+  background-color: #5a79a0;
+  display: inline-block;
+  font-size: 12px;
+  margin-bottom: 8px;
+  max-height: 16px;
+  width: auto;
+}
+.bouton2 {
+  padding: 6px;
+  color: #fff;
+  text-transform: uppercase;
+  border-radius: 5px;
+  background-color: #207fb7;
+  display: inline-block;
+  font-size: 12px;
+  margin-bottom: 8px;
+}
+#Actualites:hover {
+  border-bottom:#5a79a0 solid 6px;
+  padding-bottom: 3px;
+}
+#International:hover {
+  border-bottom:#5a79a0 solid 6px;
+  padding-bottom: 3px;
+}
+#Débats:hover {
+  border-bottom:#837466 solid 6px;
+  padding-bottom: 3px;
+}
+#Affaires:hover {
+  border-bottom:#207FB7 solid 6px;
+  padding-bottom: 3px;
+}
+#Sports:hover {
+  border-bottom:#FFAF00 solid 6px;
+  padding-bottom: 3px;
+}
+#Auto:hover {
+  border-bottom:#5B7C8E solid 6px;
+  padding-bottom: 3px;
+}
+#Arts:hover {
+  border-bottom:#008591 solid 6px;
+  padding-bottom: 3px;
+}
+#Cinema:hover {
+  border-bottom:#A05FA8 solid 6px;
+  padding-bottom: 3px;
+}
+#Societe:hover {
+  border-bottom:#840132 solid 6px;
+  padding-bottom: 3px;
+}
+#Gourmand:hover {
+  border-bottom:#840132 solid 6px;
+  padding-bottom: 3px;
+}
+#Voyage:hover {
+  border-bottom:#FF6C00 solid 6px;
+  padding-bottom: 3px;
+}
+#Maison:hover {
+  border-bottom:#55815C solid 6px;
+  padding-bottom: 3px;
+}
+#loupe:hover {
+  opacity: 0.6;
+}
+#bonhomme:hover {
+  opacity: 0.6;
+}
+#loupe {
+  margin:auto;
+  text-indent: 200px;
+}
+#bonhomme {
+  margin:auto;
+}
+
+a:link {
+  text-decoration: none;
+}
+a:visited {
+  text-decoration: none;
+}
